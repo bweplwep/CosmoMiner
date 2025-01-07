@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0b3d91;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+button {
+  background-color: #ff9f1c;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #ffbf69;
+}
+
+h1, h2 {
+  color: #ff9f1c;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 20px;
+  background-color: #333;
+  border-radius: 10px;
+  margin: 10px 0;
+  overflow: hidden;
+}
+
+#progress {
+  height: 100%;
+  background-color: #ff9f1c;
+  width: 0;
+  transition: width 0.3s;
+}
+
+#achievements {
+  margin-top: 20px;
+}
+
+.achievement {
+  background-color: #1c1c1c;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
