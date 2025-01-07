@@ -46,11 +46,11 @@ h1, h2 {
   transition: width 0.3s;
 }
 
-#achievements {
+#quests, #shop {
   margin-top: 20px;
 }
 
-.achievement {
+.quest, .shop-item {
   background-color: #1c1c1c;
   padding: 10px;
   margin: 5px 0;
